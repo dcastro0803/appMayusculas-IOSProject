@@ -10,7 +10,7 @@ import UIKit
 
 class ViewControllerEjercicio1: UIViewController {
 
-    
+    // Variables for element in view 
     @IBOutlet weak var lbPregunta1: UILabel!
     @IBOutlet weak var lbPregunta2: UILabel!
     @IBOutlet weak var lbPregunta3: UILabel!
