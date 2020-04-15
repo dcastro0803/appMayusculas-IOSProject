@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>nombre</key>
+		<string>Regla 1</string>
+		<key>descripcion</key>
+		<string>Los nombres propios</string>
+		<key>ejemplo1</key>
+		<string>Marcos</string>
+		<key>ejemplo2</key>
+		<string>Florencia</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_driana</string>
+					<key>respuesta</key>
+					<string>Adriana</string>
+					<key>opcion1</key>
+					<string>A</string>
+					<key>opcion2</key>
+					<string>a</string>
+					<key>opcionCorrecta</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_edro</string>
+					<key>respuesta</key>
+					<string>Pedro</string>
+					<key>opcion1</key>
+					<string>P</string>
+					<key>opcion2</key>
+					<string>p</string>
+					<key>opcionCorrecta</key>
+					<string>P</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_______ estudia para su examen.</string>
+					<key>respuesta</key>
+					<string>Adriana estudia para su examen.</string>
+					<key>opcion1</key>
+					<string>Adriana</string>
+					<key>opcion2</key>
+					<string>adriana</string>
+					<key>opcionCorrecta</key>
+					<string>Adriana</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>________ està caminando.</string>
+					<key>respuesta</key>
+					<string>Pedro esta caminando.</string>
+					<key>opcion1</key>
+					<string>Pedro</string>
+					<key>opcion2</key>
+					<string>pedro</string>
+					<key>opcionCorrecta</key>
+					<string>Pedro</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>nombre</key>
+		<string>Regla 2</string>
+		<key>descripcion</key>
+		<string>Las Marcas</string>
+		<key>ejemplo1</key>
+		<string>Gatorade</string>
+		<key>ejemplo2</key>
+		<string>Kleenex</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_atorade</string>
+					<key>respuesta</key>
+					<string>Gatorade</string>
+					<key>opcion1</key>
+					<string>G</string>
+					<key>opcion2</key>
+					<string>g</string>
+					<key>opcionCorrecta</key>
+					<string>G</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_leenex</string>
+					<key>respuesta</key>
+					<string>Kleenex</string>
+					<key>opcion1</key>
+					<string>K</string>
+					<key>opcion2</key>
+					<string>k</string>
+					<key>opcionCorrecta</key>
+					<string>K</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_________ es una marca muy fuerte.</string>
+					<key>respuesta</key>
+					<string>Gatorade es una marca muy fuerte.</string>
+					<key>opcion1</key>
+					<string>Gatorade</string>
+					<key>opcion2</key>
+					<string>gatorade</string>
+					<key>opcionCorrecta</key>
+					<string>Gatorade</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>Los ______ son muy limpios.</string>
+					<key>respuesta</key>
+					<string>Los Kleenex son muy limpios.</string>
+					<key>opcion1</key>
+					<string>Kleenex</string>
+					<key>opcion2</key>
+					<string>kleenex</string>
+					<key>opcionCorrecta</key>
+					<string>Kleenex</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+</array>
+</plist>
