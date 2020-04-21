@@ -24,7 +24,7 @@ class ViewControllerEjercicio1: UIViewController {
     
     var arrReglasMayusculas : NSArray!
     var arrReglasMinusculas : NSArray!
-    var arrSoluciones : [String]!
+    var arrSoluciones = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,6 +92,7 @@ class ViewControllerEjercicio1: UIViewController {
             var dic = arrReglasMayusculas[randomNumber] as! NSDictionary
             var arrEjercicios = dic["ejerciciosFacil"] as! NSArray
             
+            
             // Select a random number for the size
             var randomNumber = Int.random(in: 0..<arrEjercicios.count)
             
@@ -100,6 +101,13 @@ class ViewControllerEjercicio1: UIViewController {
             //Here we select the dictionary: This 0 doesn't change anytime
             randomNumber = Int.random(in: 0..<arrEjerciciosItem.count)
             var dicItem = arrEjerciciosItem[randomNumber] as! NSDictionary
+            
+            let Resp = dicItem["respuesta"] as! String
+            
+            
+             print(Resp)
+            arrSoluciones.append(Resp)
+            
             
             arrayLabels[n]?.text = dicItem["pregunta"] as? String
             arraySegmentControl[n]?.setTitle(dicItem["opcion1"] as? String, forSegmentAt: 0)
@@ -119,9 +127,11 @@ class ViewControllerEjercicio1: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        let Resultado = segue.identifier as! ViewControllerResultados1
+        let Resultado = segue.destination as! ViewControllerResultados1
         
-        //Resultado.Respuesta1 =
+        Resultado.Respuesta1 = arrSoluciones[0]
+        Resultado.Respuesta2 = arrSoluciones[1]
+        //Resultado.Respuesta3 = arrSoluciones[2]
     }
     
 

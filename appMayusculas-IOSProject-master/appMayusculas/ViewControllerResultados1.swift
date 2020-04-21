@@ -21,6 +21,10 @@ class ViewControllerResultados1: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lResp1.text = Respuesta1
+        lResp2.text = Respuesta2
+        lResp3.text = Respuesta3
 
         // Do any additional setup after loading the view.
     }

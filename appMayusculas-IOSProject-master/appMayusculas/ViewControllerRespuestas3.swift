@@ -10,6 +10,14 @@ import UIKit
 
 class ViewControllerRespuestas3: UIViewController {
 
+    @IBOutlet weak var lResp1: UILabel!
+    @IBOutlet weak var lResp2: UILabel!
+    @IBOutlet weak var lResp3: UILabel!
+    
+    var Respuesta1 : String!
+    var Respuesta2 : String!
+    var Respuesta3 : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
