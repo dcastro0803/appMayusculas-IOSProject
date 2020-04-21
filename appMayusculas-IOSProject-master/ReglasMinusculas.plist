@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>nombre</key>
+		<string>Regla 1</string>
+		<key>descripcion</key>
+		<string>Los nombres comunes</string>
+		<key>ejemplo1</key>
+		<string>perro</string>
+		<key>ejemplo2</key>
+		<string>silla</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_erro</string>
+					<key>respuesta</key>
+					<string>perro</string>
+					<key>opcion1</key>
+					<string>P</string>
+					<key>opcion2</key>
+					<string>p</string>
+					<key>opcionCorrecta</key>
+					<string>p</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_illa</string>
+					<key>respuesta</key>
+					<string>silla</string>
+					<key>opcion1</key>
+					<string>S</string>
+					<key>opcion2</key>
+					<string>s</string>
+					<key>opcionCorrecta</key>
+					<string>s</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El ______ está comiendo un hueso.</string>
+					<key>respuesta</key>
+					<string>El perro está comiendo un hueso.</string>
+					<key>opcion1</key>
+					<string>Perro</string>
+					<key>opcion2</key>
+					<string>perro</string>
+					<key>opcionCorrecta</key>
+					<string>perro</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>La ____ está rota.</string>
+					<key>respuesta</key>
+					<string>La silla está rota.</string>
+					<key>opcion1</key>
+					<string>Silla</string>
+					<key>opcion2</key>
+					<string>silla</string>
+					<key>opcionCorrecta</key>
+					<string>silla</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+</array>
+</plist>
