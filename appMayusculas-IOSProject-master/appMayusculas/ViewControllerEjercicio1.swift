@@ -92,20 +92,24 @@ class ViewControllerEjercicio1: UIViewController {
             var dic = arrReglasMayusculas[randomNumber] as! NSDictionary
             var arrEjercicios = dic["ejerciciosFacil"] as! NSArray
             
+
+            
             
             // Select a random number for the size
             var randomNumber = Int.random(in: 0..<arrEjercicios.count)
             
             var arrEjerciciosItem = arrEjercicios[randomNumber] as! NSArray
             
+            
+            
             //Here we select the dictionary: This 0 doesn't change anytime
             randomNumber = Int.random(in: 0..<arrEjerciciosItem.count)
             var dicItem = arrEjerciciosItem[randomNumber] as! NSDictionary
             
+            
             let Resp = dicItem["respuesta"] as! String
             
-            
-             print(Resp)
+        
             arrSoluciones.append(Resp)
             
             
@@ -114,8 +118,24 @@ class ViewControllerEjercicio1: UIViewController {
             arraySegmentControl[n]?.setTitle(dicItem["opcion2"] as? String, forSegmentAt: 1)
         }
         
-        // Missed last Minuscula
-
+        // We apply the same principle as the Mayusculas exercises
+        
+        let dic2 = arrReglasMinusculas[0] as! NSDictionary
+        var arrEjercicios2 = dic2["ejerciciosFacil"] as! NSArray
+        
+        var randomNumber2 = Int.random(in: 0..<arrEjercicios2.count)
+        var arrEjerciciosItem2 = arrEjercicios2[randomNumber2] as! NSArray
+        
+        randomNumber2 = Int.random(in: 0..<arrEjerciciosItem2.count)
+        var dicItem2 = arrEjerciciosItem2[randomNumber2] as! NSDictionary
+        
+        let Resp2 = dicItem2["respuesta"] as! String
+        
+        arrSoluciones.append(Resp2)
+        
+        arrayLabels[2]?.text = dicItem2["pregunta"] as? String
+        arraySegmentControl[2]?.setTitle(dicItem2["opcion1"] as? String, forSegmentAt: 0)
+        arraySegmentControl[2]?.setTitle(dicItem2["opcion2"] as? String, forSegmentAt: 1)
         // In a function create an alert if the segmented control doesn't have an all answer
     }
     
@@ -131,7 +151,7 @@ class ViewControllerEjercicio1: UIViewController {
         
         Resultado.Respuesta1 = arrSoluciones[0]
         Resultado.Respuesta2 = arrSoluciones[1]
-        //Resultado.Respuesta3 = arrSoluciones[2]
+        Resultado.Respuesta3 = arrSoluciones[2]
     }
     
 

@@ -9,6 +9,8 @@
 		<string>Regla 1</string>
 		<key>descripcion</key>
 		<string>Los nombres propios</string>
+		<key>tip</key>
+		<string>Recuerda que los nombres propios de las personas se escriben con MAYSUCULA al principio.</string>
 		<key>ejemplo1</key>
 		<string>Marcos</string>
 		<key>ejemplo2</key>
@@ -79,6 +81,8 @@
 		<string>Regla 2</string>
 		<key>descripcion</key>
 		<string>Las Marcas</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de las marcas se escriben con MAYUSCULA al principio.</string>
 		<key>ejemplo1</key>
 		<string>Gatorade</string>
 		<key>ejemplo2</key>
@@ -138,6 +142,222 @@
 					<string>kleenex</string>
 					<key>opcionCorrecta</key>
 					<string>Kleenex</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>nombre</key>
+		<string>Regla 3</string>
+		<key>descripcion</key>
+		<string>Nombre de divinidades</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de las divinidades en las mitologias se escriben con MAYUSCULA al principio</string>
+		<key>ejemplo1</key>
+		<string>Zeus</string>
+		<key>ejemplo2</key>
+		<string>Dios</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_eus</string>
+					<key>respuesta</key>
+					<string>Zeus</string>
+					<key>opcion1</key>
+					<string>Z</string>
+					<key>opcion2</key>
+					<string>z</string>
+					<key>opcionCorrecta</key>
+					<string>Z</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_ios</string>
+					<key>respuesta</key>
+					<string>Dios</string>
+					<key>opcion1</key>
+					<string>d</string>
+					<key>opcion2</key>
+					<string>D</string>
+					<key>opcionCorrecta</key>
+					<string>D</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>Segun los nordicos, _______ es el padre de todo .</string>
+					<key>respuesta</key>
+					<string>Segun los nordicos, Odin es el padre de todo .</string>
+					<key>opcion1</key>
+					<string>Odin</string>
+					<key>opcion2</key>
+					<string>odin</string>
+					<key>opcionCorrecta</key>
+					<string>Odin</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El dios _______ es muy importante para los hindues.</string>
+					<key>respuesta</key>
+					<string>El dios Vishnu es muy importante para los hindues.</string>
+					<key>opcion1</key>
+					<string>vishnu</string>
+					<key>opcion2</key>
+					<string>Vishnu</string>
+					<key>opcionCorrecta</key>
+					<string>Vishnu</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>nombre</key>
+		<string>Regla 4</string>
+		<key>descripcion</key>
+		<string>Sustantivos y adjetivos de los nombres de instituciones</string>
+		<key>tip</key>
+		<string>Recuerda que los sustantivos y adjetivos de cualquier institucion se escriben con MAYUSCULAS al principio.</string>
+		<key>ejemplo1</key>
+		<string>Policia Nacional Civil</string>
+		<key>ejemplo2</key>
+		<string>Instituto Nacional de Migracion</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>Partido _erde</string>
+					<key>respuesta</key>
+					<string>Partido Verde</string>
+					<key>opcion1</key>
+					<string>v</string>
+					<key>opcion2</key>
+					<string>V</string>
+					<key>opcionCorrecta</key>
+					<string>V</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>Burger _ing</string>
+					<key>respuesta</key>
+					<string>Burger King</string>
+					<key>opcion1</key>
+					<string>K</string>
+					<key>opcion2</key>
+					<string>k</string>
+					<key>opcionCorrecta</key>
+					<string>K</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>La Guardia ______ nos protege de amenzas constantes.</string>
+					<key>respuesta</key>
+					<string>La Guardia Civil nos protege de amenzas constantes.</string>
+					<key>opcion1</key>
+					<string>civil</string>
+					<key>opcion2</key>
+					<string>Civil</string>
+					<key>opcionCorrecta</key>
+					<string>Civil</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El ______ de Mexico esta liderado por el presidente.</string>
+					<key>respuesta</key>
+					<string>El Gobierno de Mexico esta liderado por el presidente</string>
+					<key>opcion1</key>
+					<string>Gobierno</string>
+					<key>opcion2</key>
+					<string>gobierno</string>
+					<key>opcionCorrecta</key>
+					<string>Gobierno</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>nombre</key>
+		<string>Regla 5</string>
+		<key>descripcion</key>
+		<string>Festividades</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de las festividades se escriben con MAYUSCULAS al principio</string>
+		<key>ejemplo1</key>
+		<string>Halloween</string>
+		<key>ejemplo2</key>
+		<string>Navidad</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_ia del Trabajo</string>
+					<key>respuesta</key>
+					<string>Dia del Trabajo</string>
+					<key>opcion1</key>
+					<string>D</string>
+					<key>opcion2</key>
+					<string>d</string>
+					<key>opcionCorrecta</key>
+					<string>D</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_ia de San Valentin</string>
+					<key>respuesta</key>
+					<string>Dia de San Valentin</string>
+					<key>opcion1</key>
+					<string>d</string>
+					<key>opcion2</key>
+					<string>D</string>
+					<key>opcionCorrecta</key>
+					<string>D</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El 15 de septiembre se celebra el ______ de Dolores</string>
+					<key>respuesta</key>
+					<string>El 15 de septiembre se celebra el Grito de Dolores</string>
+					<key>opcion1</key>
+					<string>civil</string>
+					<key>opcion2</key>
+					<string>Civil</string>
+					<key>opcionCorrecta</key>
+					<string>Civil</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>En ______ viene Santa a dejarnos regalos.</string>
+					<key>respuesta</key>
+					<string>En Navidad viene a Santa a dejarnos regalos</string>
+					<key>opcion1</key>
+					<string>Navidad</string>
+					<key>opcion2</key>
+					<string>navidad</string>
+					<key>opcionCorrecta</key>
+					<string>Navidad</string>
 				</dict>
 			</array>
 		</array>

@@ -9,6 +9,8 @@
 		<string>Regla 1</string>
 		<key>descripcion</key>
 		<string>Los nombres comunes</string>
+		<key>tip</key>
+		<string>Recuerda que los nombres comunes se escriben con MINUSCULAS al principio.</string>
 		<key>ejemplo1</key>
 		<string>perro</string>
 		<key>ejemplo2</key>
